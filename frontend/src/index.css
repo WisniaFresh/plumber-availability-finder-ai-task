@@ -1,0 +1,212 @@
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --border: #e3e6eb;
+  --text: #1f2933;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --danger: #dc2626;
+  --danger-hover: #b91c1c;
+  --success: #15803d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+  font-weight: 600;
+}
+
+.navbar__brand {
+  font-size: 18px;
+}
+
+.content {
+  flex: 1;
+  padding: 24px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.primary-button {
+  width: 100%;
+  padding: 20px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background: var(--accent-hover);
+}
+
+.primary-button--danger {
+  background: var(--danger);
+}
+
+.primary-button--danger:hover {
+  background: var(--danger-hover);
+}
+
+.primary-button:disabled {
+  background: var(--muted);
+  cursor: not-allowed;
+}
+
+.section-title {
+  margin: 16px 0 0 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.loading,
+.error {
+  padding: 16px;
+  color: var(--muted);
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.company-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.company-card {
+  display: flex;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.company-card__avatar {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background: var(--bg);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.company-card__body {
+  flex: 1;
+}
+
+.company-card__name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.employee-list__label {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.employee-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.employee-list__item {
+  margin: 2px 0;
+}
+
+.back-link {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.proposal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.proposal__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.proposal__row:last-of-type {
+  border-bottom: none;
+}
+
+.proposal__label {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.proposal__value {
+  font-weight: 500;
+}
+
+.confirmation {
+  padding: 16px;
+  background: #ecfdf5;
+  color: var(--success);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}

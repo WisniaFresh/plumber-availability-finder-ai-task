@@ -1,0 +1,7 @@
+[
+  { "id": "co-001", "name": "Acme Plumbing", "avatar": "🔧" },
+  { "id": "co-002", "name": "Riverside Pipes", "avatar": "🚿" },
+  { "id": "co-003", "name": "Citywide Drainworks", "avatar": "🛁" },
+  { "id": "co-004", "name": "Northside Plumbers", "avatar": "🧰" },
+  { "id": "co-005", "name": "Quickfix Plumbing", "avatar": "🪠" }
+]

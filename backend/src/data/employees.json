@@ -1,0 +1,25 @@
+[
+  { "id": "emp-001", "name": "John Doe", "companyId": "co-001" },
+  { "id": "emp-002", "name": "Jane Smith", "companyId": "co-001" },
+  { "id": "emp-003", "name": "Carlos Rivera", "companyId": "co-001" },
+  { "id": "emp-004", "name": "Aisha Patel", "companyId": "co-001" },
+
+  { "id": "emp-005", "name": "Mike Johnson", "companyId": "co-002" },
+  { "id": "emp-006", "name": "Linda Park", "companyId": "co-002" },
+  { "id": "emp-007", "name": "Oliver Hughes", "companyId": "co-002" },
+
+  { "id": "emp-008", "name": "Priya Shah", "companyId": "co-003" },
+  { "id": "emp-009", "name": "Marcus Webb", "companyId": "co-003" },
+  { "id": "emp-010", "name": "Sara Lin", "companyId": "co-003" },
+  { "id": "emp-011", "name": "Tomasz Nowak", "companyId": "co-003" },
+  { "id": "emp-012", "name": "Elena Garcia", "companyId": "co-003" },
+
+  { "id": "emp-013", "name": "Henry Allen", "companyId": "co-004" },
+  { "id": "emp-014", "name": "Naomi Brooks", "companyId": "co-004" },
+  { "id": "emp-015", "name": "Diego Ortiz", "companyId": "co-004" },
+
+  { "id": "emp-016", "name": "Rachel Kim", "companyId": "co-005" },
+  { "id": "emp-017", "name": "Samuel Adeyemi", "companyId": "co-005" },
+  { "id": "emp-018", "name": "Hannah Mueller", "companyId": "co-005" },
+  { "id": "emp-019", "name": "Lukas Becker", "companyId": "co-005" }
+]

@@ -1,0 +1,82 @@
+[
+  { "id": "bk-001", "employeeId": "emp-001", "startHour": 8 },
+  { "id": "bk-002", "employeeId": "emp-001", "startHour": 10 },
+  { "id": "bk-003", "employeeId": "emp-001", "startHour": 14 },
+
+  { "id": "bk-004", "employeeId": "emp-002", "startHour": 8 },
+  { "id": "bk-005", "employeeId": "emp-002", "startHour": 9 },
+  { "id": "bk-006", "employeeId": "emp-002", "startHour": 10 },
+  { "id": "bk-007", "employeeId": "emp-002", "startHour": 11 },
+  { "id": "bk-008", "employeeId": "emp-002", "startHour": 13 },
+  { "id": "bk-009", "employeeId": "emp-002", "startHour": 14 },
+
+  { "id": "bk-010", "employeeId": "emp-003", "startHour": 16 },
+
+  { "id": "bk-011", "employeeId": "emp-004", "startHour": 9 },
+  { "id": "bk-012", "employeeId": "emp-004", "startHour": 11 },
+  { "id": "bk-013", "employeeId": "emp-004", "startHour": 14 },
+  { "id": "bk-014", "employeeId": "emp-004", "startHour": 16 },
+
+  { "id": "bk-015", "employeeId": "emp-005", "startHour": 8 },
+  { "id": "bk-016", "employeeId": "emp-005", "startHour": 9 },
+  { "id": "bk-017", "employeeId": "emp-005", "startHour": 10 },
+  { "id": "bk-018", "employeeId": "emp-005", "startHour": 13 },
+  { "id": "bk-019", "employeeId": "emp-005", "startHour": 17 },
+
+  { "id": "bk-020", "employeeId": "emp-006", "startHour": 15 },
+  { "id": "bk-021", "employeeId": "emp-006", "startHour": 16 },
+
+  { "id": "bk-022", "employeeId": "emp-007", "startHour": 9 },
+  { "id": "bk-023", "employeeId": "emp-007", "startHour": 12 },
+  { "id": "bk-024", "employeeId": "emp-007", "startHour": 15 },
+
+  { "id": "bk-025", "employeeId": "emp-008", "startHour": 8 },
+  { "id": "bk-026", "employeeId": "emp-008", "startHour": 9 },
+  { "id": "bk-027", "employeeId": "emp-008", "startHour": 10 },
+  { "id": "bk-028", "employeeId": "emp-008", "startHour": 11 },
+  { "id": "bk-029", "employeeId": "emp-008", "startHour": 12 },
+  { "id": "bk-030", "employeeId": "emp-008", "startHour": 13 },
+
+  { "id": "bk-031", "employeeId": "emp-009", "startHour": 14 },
+  { "id": "bk-032", "employeeId": "emp-009", "startHour": 17 },
+
+  { "id": "bk-033", "employeeId": "emp-010", "startHour": 11 },
+
+  { "id": "bk-034", "employeeId": "emp-011", "startHour": 8 },
+  { "id": "bk-035", "employeeId": "emp-011", "startHour": 12 },
+  { "id": "bk-036", "employeeId": "emp-011", "startHour": 15 },
+  { "id": "bk-037", "employeeId": "emp-011", "startHour": 18 },
+
+  { "id": "bk-038", "employeeId": "emp-012", "startHour": 10 },
+  { "id": "bk-039", "employeeId": "emp-012", "startHour": 13 },
+  { "id": "bk-040", "employeeId": "emp-012", "startHour": 16 },
+
+  { "id": "bk-041", "employeeId": "emp-013", "startHour": 8 },
+  { "id": "bk-042", "employeeId": "emp-013", "startHour": 10 },
+  { "id": "bk-043", "employeeId": "emp-013", "startHour": 12 },
+  { "id": "bk-044", "employeeId": "emp-013", "startHour": 14 },
+  { "id": "bk-045", "employeeId": "emp-013", "startHour": 16 },
+
+  { "id": "bk-046", "employeeId": "emp-014", "startHour": 9 },
+
+  { "id": "bk-047", "employeeId": "emp-015", "startHour": 11 },
+  { "id": "bk-048", "employeeId": "emp-015", "startHour": 13 },
+  { "id": "bk-049", "employeeId": "emp-015", "startHour": 15 },
+  { "id": "bk-050", "employeeId": "emp-015", "startHour": 17 },
+
+  { "id": "bk-051", "employeeId": "emp-016", "startHour": 10 },
+  { "id": "bk-052", "employeeId": "emp-016", "startHour": 14 },
+
+  { "id": "bk-053", "employeeId": "emp-017", "startHour": 8 },
+  { "id": "bk-054", "employeeId": "emp-017", "startHour": 10 },
+  { "id": "bk-055", "employeeId": "emp-017", "startHour": 11 },
+  { "id": "bk-056", "employeeId": "emp-017", "startHour": 13 },
+  { "id": "bk-057", "employeeId": "emp-017", "startHour": 15 },
+  { "id": "bk-058", "employeeId": "emp-017", "startHour": 17 },
+
+  { "id": "bk-059", "employeeId": "emp-018", "startHour": 9 },
+  { "id": "bk-060", "employeeId": "emp-018", "startHour": 12 },
+  { "id": "bk-061", "employeeId": "emp-018", "startHour": 16 },
+
+  { "id": "bk-062", "employeeId": "emp-019", "startHour": 13 }
+]
