@@ -19,6 +19,7 @@ describe('getCompaniesWithEmployees', () => {
       for (const employee of company.employees) {
         assert.equal(typeof employee.id, 'string');
         assert.equal(typeof employee.name, 'string');
+        assert.equal(typeof employee.pricePerHour, 'number');
       }
     }
   });

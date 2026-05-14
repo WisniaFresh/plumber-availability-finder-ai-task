@@ -16,6 +16,7 @@ export type Employee = {
   id: string;
   name: string;
   companyId: string;
+  pricePerHour: number;
 };
 
 export type Booking = {
@@ -25,7 +26,7 @@ export type Booking = {
 };
 
 export type CompanyWithEmployees = Company & {
-  employees: Array<{ id: string; name: string }>;
+  employees: Array<{ id: string; name: string; pricePerHour: number }>;
 };
 
 const DATA_DIR = join(__dirname, 'data');
@@ -90,7 +91,7 @@ export function getCompaniesWithEmployees(): CompanyWithEmployees[] {
     ...company,
     employees: employees
       .filter((e) => e.companyId === company.id)
-      .map((e) => ({ id: e.id, name: e.name })),
+      .map((e) => ({ id: e.id, name: e.name, pricePerHour: e.pricePerHour })),
   }));
 }
 

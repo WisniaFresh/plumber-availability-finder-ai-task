@@ -29,8 +29,8 @@ const SAMPLE_COMPANY = {
   name: 'Acme Plumbing',
   avatar: '🔧',
   employees: [
-    { id: 'emp-001', name: 'John Doe' },
-    { id: 'emp-002', name: 'Jane Smith' },
+    { id: 'emp-001', name: 'John Doe', pricePerHour: 65 },
+    { id: 'emp-002', name: 'Jane Smith', pricePerHour: 80 },
   ],
 };
 
@@ -56,14 +56,16 @@ describe('App — main page', () => {
     await waitFor(() => expect(screen.queryByText(/loading companies/i)).not.toBeInTheDocument());
   });
 
-  it('renders a company card with its employees from the API', async () => {
+  it('renders a company card with its employees and price-per-hour from the API', async () => {
     mockFetch({ '/api/companies': [SAMPLE_COMPANY] });
 
     renderAt('/');
 
     expect(await screen.findByText(SAMPLE_COMPANY.name)).toBeInTheDocument();
     expect(screen.getByText('John Doe')).toBeInTheDocument();
+    expect(screen.getByText('$65/hr')).toBeInTheDocument();
     expect(screen.getByText('Jane Smith')).toBeInTheDocument();
+    expect(screen.getByText('$80/hr')).toBeInTheDocument();
   });
 
   it('shows a loading state while companies are being fetched', async () => {

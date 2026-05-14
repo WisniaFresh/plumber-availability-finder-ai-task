@@ -159,6 +159,16 @@ body {
 
 .employee-list__item {
   margin: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.employee-list__price {
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  color: var(--text);
 }
 
 .back-link {

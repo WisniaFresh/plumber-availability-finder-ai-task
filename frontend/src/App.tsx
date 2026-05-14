@@ -4,6 +4,7 @@ import { Link, Route, Routes, useNavigate } from 'react-router-dom';
 type Employee = {
   id: string;
   name: string;
+  pricePerHour: number;
 };
 
 type Company = {
@@ -98,7 +99,8 @@ function MainPage() {
                 <ul className="employee-list">
                   {company.employees.map((employee) => (
                     <li className="employee-list__item" key={employee.id}>
-                      {employee.name}
+                      <span className="employee-list__name">{employee.name}</span>
+                      <span className="employee-list__price">${employee.pricePerHour}/hr</span>
                     </li>
                   ))}
                 </ul>
