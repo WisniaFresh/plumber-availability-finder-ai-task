@@ -170,7 +170,7 @@ function App() {
   return (
     <div className="layout">
       <header className="navbar">
-        <div className="navbar__brand">Plumbing Availability Finder</div>
+        <div className="navbar__brand">Emergency Plumbers</div>
       </header>
 
       <main className="content">
