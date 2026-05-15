@@ -16,3 +16,5 @@
 - If you do not finish everything, that is okay. We prefer quality over speed.
 
 - Please think out loud while you work/think.
+
+### NOW READ ./03-about-data.md

@@ -26,3 +26,5 @@ Database imitation:
 - Do not add a database. The JSON files in `backend/src/data/` are the only data storage. (you can add files there if you want)
 - Do not focus on CSS changes. All components are already styled.
 - Keep the existing tests green and add new ones where it makes sense.
+
+### You are ready to START!
