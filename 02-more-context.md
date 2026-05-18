@@ -1,16 +1,12 @@
-## The starter project already includes:
+## Project already includes:
 
 Database imitation:
 - `backend/src/data/companies.json` 
 - `backend/src/data/employees.json` 
 - `backend/src/data/bookings.json`
-
 - `GET /api/companies` endpoint that returns companies with their employees nested
-
-- a frontend main page that lists companies with their employees
-
+- a frontend main page that lists companies with their employee
 - a frontend results page that currently shows a hardcoded placeholder proposal
-
 - tests on both backend and frontend
 
 
@@ -27,4 +23,5 @@ Database imitation:
 - Do not focus on CSS changes. All components are already styled.
 - Keep the existing tests green and add new ones where it makes sense.
 
-### You are ready to START!
+### You are ready to start the project! 
+### Follow the instructions from `README.md` file.
