@@ -6,7 +6,7 @@ emergency (e.g., pipe leak) with plumbers. Users' goal is to find the nearest (f
 
 ## Your task
 
-Implement an **availability engine** so the user can find the closest available 1-hour timeslot that can be booked between 4AM - 12PM. When timeslot is found, and user clicked `Accept` make sure other users cannot book it anymore.
+Implement an **availability engine** so the user can find the closest available 1-hour timeslot that can be booked between 4 AM – 12:00 AM (midnight). When timeslot is found, and user clicked `Accept` make sure other users cannot book it anymore.
 
 
 ## IMPORTANT:
