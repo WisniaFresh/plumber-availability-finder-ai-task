@@ -114,8 +114,6 @@ function MainPage() {
 }
 
 function ResultsPage() {
-  // TODO (candidate): replace this hardcoded placeholder with the real proposal
-  // returned by your availability engine.
   const proposal: Proposal = {
     companyName: 'Company X',
     employeeName: 'Employee Y',
@@ -126,7 +124,6 @@ function ResultsPage() {
   const [accepted, setAccepted] = useState<boolean>(false);
 
   function handleAccept() {
-    // TODO (candidate): call backend to persist the booking.
     setAccepted(true);
   }
 

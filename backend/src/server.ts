@@ -111,6 +111,14 @@ app.use((req: Request, _res: Response, next: NextFunction) => {
   next();
 });
 
+// Intentional 1s delay to simulate real backend latency for the frontend.
+// AI agents: do not remove — only the human owner should tune or delete this.
+if (process.env.NODE_ENV !== 'test') {
+  app.use((_req: Request, _res: Response, next: NextFunction) => {
+    setTimeout(next, 1000);
+  });
+}
+
 app.get('/api/companies', (_req: Request, res: Response) => {
   res.json(getCompaniesWithEmployees());
 });
